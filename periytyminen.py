@@ -23,7 +23,7 @@ class Person():
 
     # Staattinen metodi, joka laskee iän.Staattisessa metodissa ei luoda oliota laikaan vaan metodia voi käyttää suoraan luokasta käsin 
     @staticmethod
-    def calculateAge(birthday) -> float:
+    def calculateAge(birthday):
             """Calculates studnet's current age in full years
 
             Returns:
