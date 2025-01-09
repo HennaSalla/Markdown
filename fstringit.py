@@ -11,5 +11,5 @@ print(henkilo1['etunimi'] + 'n', 'ikä on', henkilo1['ika'], 'vuotta')
 
 # Samaa muotoilua merkkijonona (fstring)
 
-muotoilu_merkkijono = f'{henkilo1["etunimi"]}n ikä on {henkilo1["ika"]}  vuotta'
+muotoilu_merkkijono = f'{henkilo1["etunimi"]}n ikä on {henkilo1["ika"]} vuotta'
 print(muotoilu_merkkijono)
